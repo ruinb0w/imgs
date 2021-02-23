@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "init": "picpic init",
-    "build": "picpic build"
+    "build": "picpic build",
+    "update": "git add . && git commit -m 'update' && git push"
   },
   "author": "",
   "license": "ISC",
